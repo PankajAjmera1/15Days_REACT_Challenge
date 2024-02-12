@@ -8,3 +8,7 @@ Why React Was Created ?
 --> Favebook -- Message
 
 React is a Library
+
+
+##Day-2
+#Basic v/s Vite
