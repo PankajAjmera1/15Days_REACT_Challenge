@@ -29,3 +29,7 @@ React is a Library
 
 #Custom Hooks
 #Currency converotr App 
+
+
+##day6
+#Fix some bugs in Currency convertor
