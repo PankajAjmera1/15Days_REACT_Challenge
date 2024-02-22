@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-  <h1>A Mega Project Blog app with appwrite</h1>
+  <h1>A Mega Project Blog app with appwrite --  git check</h1>
 
     </>
   )
