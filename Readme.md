@@ -57,3 +57,8 @@ React is a Library
 
 #Day12
 #Appwrite connection with blog app project
+
+
+#Day13
+#Posts and File (Images) backend
+#Redux Toolkit Configuration
