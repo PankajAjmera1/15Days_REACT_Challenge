@@ -99,3 +99,6 @@ Editor  & Post Form
 
 #Day 21
 #Debugging
+
+#Day 22
+Api key of editor

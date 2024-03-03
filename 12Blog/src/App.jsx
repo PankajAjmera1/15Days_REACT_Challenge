@@ -39,7 +39,6 @@ function App() {
     {/* <Login/> */}
     <Footer/>
     {/* <SignUp/> */}
-    <About/>
     </div>
   </div>
  ) :null
