@@ -105,3 +105,7 @@ Api key of editor
 
 #23
 network req failed
+
+#24 
+Add Post error in appwrite 
+Challenge Completed
