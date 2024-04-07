@@ -3,6 +3,8 @@ import {RxCaretDown} from "react-icons/rx";
 import { useState } from 'react';
 import {IoIosSearch} from 'react-icons/io';
 import {CiDiscount1} from 'react-icons/ci';
+import { RxCross2 } from "react-icons/rx";
+import { MdGpsFixed } from "react-icons/md";
 
 function Header() {
     const [toggle, setToggle] = useState(false);
@@ -50,7 +52,23 @@ function Header() {
     style={{
         left: toggle ? 0 : '-100%',
     }}
-    ></div>
+    >    <div className='pt-[50px]'>
+            <button onClick={hideShowMenu} className="ml-2 p-2  rounded-full bg-gray-200 hover:bg-gray-300 focus:outline-none">
+                
+                <RxCross2 />
+            </button>
+            </div>
+        <div className="flex items-center justify-between p-5 ml-7 "> 
+          
+            <input type="text" placeholder="Search for area,street name..." className="border border-gray-300 rounded-md px-3 py-2 w-[300px] focus:outline-none " />
+        </div>
+        <div className='h-[100px] w-[300px] border to-black ml-[50px]' >
+             
+            <div className='text-[black]  pt-3 '> <MdGpsFixed className='inline  ml-3' /> <span className='ml-2 hover:text-orange-400 font-bold '>Get Current Location</span></div>
+            <div className='text-[black]  text-[12px] flex items-center ml-11 pt-3 '>Using GPS</div>
+
+        </div>
+    </div>
 
    </div>
    <header className='p-[15px] shadow-xl text-[#686b78] sticky top-0 bg-white z-[9999]'>

@@ -2,6 +2,9 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import Card from './Card'
+import { VscFilter } from "react-icons/vsc";
+import { IoIosArrowDown } from "react-icons/io";
+import { GoSearch } from "react-icons/go";
 
 function Online() {
     const componentRef = React.useRef(null);
@@ -45,12 +48,37 @@ function Online() {
           <div  className={isAtTop ? 'fixed top-0 z-[9999999] bg-white w-full left-0 ': ''}>
             <div className='max-w-[1200px] mx-auto flex my-4 gap-3  '>
                 <div className='p-3 rounded-md shadow '>
-                    Filter
+                    Filter  <VscFilter  className='inline'/>
                 </div>
                 <div className='p-3 rounded-md shadow '>
-                    Sort By
+                    Sort By <IoIosArrowDown className='inline' />
+                </div>
+                <div className='p-3 rounded-md shadow '>
+                    Fast Delivery
+                </div>
+                <div className='p-3 rounded-md shadow '>
+                    New on Swiggy
+                </div>
+                <div className='p-3 rounded-md shadow '>
+                    Rating 4.0+
+                </div>
+                <div className='p-3 rounded-md shadow '>
+                    Pure-veg
+                </div>
+                <div className='p-3 rounded-md shadow '>
+                     Offers
+                </div>
+                <div className='flex ml-[25px] w-[350px] relative'>
+                
+                
+                        <input type="text" className='bg-slate-100 w-full pl-10 rounded-xl' placeholder="Search for resturant for food" />
+                        <GoSearch className='absolute left-2 top-1/2 transform -translate-y-1/2 ' />
+              
+                    
+                
                 </div>
             </div>
+            
           </div>
 <div className='md:grid grid-cols-4 gap-3 '>
     {
