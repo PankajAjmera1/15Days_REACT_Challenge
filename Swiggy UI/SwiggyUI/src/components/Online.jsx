@@ -5,6 +5,8 @@ import Card from './Card'
 import { VscFilter } from "react-icons/vsc";
 import { IoIosArrowDown } from "react-icons/io";
 import { GoSearch } from "react-icons/go";
+import Card2 from './Card2';
+import Fotter from './Fotter';
 
 function Online() {
     const componentRef = React.useRef(null);
@@ -90,8 +92,75 @@ function Online() {
     }
 
 </div>
+         <hr className='my-6 border-[1px]' />
 
           </div>
+
+          <div className='font-bold ml-[190px] text-[25px]'>
+            Best Places to Order from Near You
+          </div>
+
+          <div className='max-w-[1200px] pt-5 ml-[200px] mb-4 md:grid grid-rows-3 grid-flow-col gap-4 '>
+
+            <Card2 description="Explore Resturants Near Me"  />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+
+          </div>
+          <div className='font-bold ml-[190px] text-[25px]'>
+            Best CUsines Near Me
+          </div>
+
+          <div className='max-w-[1200px] pt-5 ml-[200px] mb-4 md:grid grid-rows-3 grid-flow-col gap-4 '>
+
+            <Card2 description="Explore Resturants Near Me"  />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+            <Card2 description="Explore Resturants Near Me" />
+
+          </div>
+          <div className='font-bold ml-[190px] text-[25px]'>
+            Explore Every Resturanats Near Me
+          </div>
+
+          <div className='max-w-[1200px] pt-5 ml-[200px] mb-4 md:grid grid-rows-1 grid-flow-col gap-4 '>
+
+            <Card2 description="Explore Resturants Near Me"  />
+            <Card2 description="Explore Resturants Near Me" />
+            
+
+          </div>
+
+          <div className='mt-[150px]'>
+            <div className='bg-slate-300 w-full h-[100px] rounded-md  flex flex-wrap items-center justify-around'>
+                <h2 className='text-slate-800 text-[25px] font-bold ml-[25px] items-center '>For better experience,
+                <br />
+                download the Swiggy app now</h2>
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png" alt="" className='h-[80px] ml-7' />
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png" alt="" className='h-[80px] mr-[25px]' />
+
+
+            </div>
+          </div>
+          <div>
+          <Fotter/>
+          </div>
+       
+         
+
+
+
     </>
   )
 }
